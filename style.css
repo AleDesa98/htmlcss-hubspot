@@ -34,6 +34,11 @@ body {
     border: 1px solid #fe775a;
 }
 
+.btn-lg {
+    padding: 20px;
+    margin: 0;
+}
+
 .btn-white {
     background-color: #fafcfe;
     color: #fe775a;
@@ -42,6 +47,10 @@ body {
 .btn-orange {
     background-color: #fe775a;
     color: white;
+}
+
+.w-50 {
+    width: 50%;
 }
 
 .header-superiore {
@@ -67,7 +76,7 @@ body {
 
 .list-inline > li {
     display: inline-block;
-    padding: 0 10px;
+    padding: 0 20px 0 0;
 }
 
 .list-inline a {
@@ -85,7 +94,6 @@ body {
     width: 50%;
     height: 100%;
     text-align: left;
-    padding-left: 10px;
 }
 
 .barra-menu-right {
@@ -106,5 +114,62 @@ body {
 
 .sfondo-jumbotron {
     background-image: url('img/jumbotron.png');
-    height: 615px;
+    /* height: 615px; */
+}
+
+.jumbotron {
+    /* position: relative; */
+    height: 612px;
+}
+
+.jumbotron-text {
+    /* position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%); */
+}
+
+h1 {
+    font-size: 50px;
+    padding-top: 50px;
+    line-height: 50px;
+
+}
+
+.jumbotron-text > p {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.jumbotron-text > a {
+    text-decoration: none;
+}
+
+.jumbotron-text > div {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.sfondo-afebe4 {
+    background-color: #afebe4;
+    height: 60px;
+    border-top: 3px solid #688d95;
+    border-bottom: 3px solid #688d95;
+}
+
+.sfondo-grigio {
+    background-color: #f4f9fd;
+    height: 1000px;
+}
+
+.sfondo-grigio > div {
+    height: 100px;
+}
+
+.sfondo-grigio img {
+    height: 100%;
 }
