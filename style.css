@@ -454,3 +454,79 @@ font-size: 30px;
 .main-bottom-right > img {
     width: 40%;
 }
+
+footer {
+    background-color: #32495b;
+    padding-top: 30px;
+}
+
+.footer-link {
+    width: 100%;
+}
+
+.colonna-footer-link {
+    width: calc(100% / 4);
+    text-align: left;
+}
+
+.colonna-footer-link > ul > li {
+    display: block;
+    padding-bottom: 15px;
+    color: #b1becb;
+}
+
+.colonna-footer-link > ul > li:first-child {
+    padding-bottom: 25px;
+    color: white;
+}
+
+.colonna-footer-link > ul > a {
+    color: #32495b;
+    background-color: #dadee0;
+    border: 1px solid white;
+    padding: 7px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.social {
+    margin: 20px 0;
+}
+
+.social > i {
+    margin-right: 20px;
+}
+
+.footer-lingue {
+    text-align: center;
+    border-bottom: 1px solid #dadee0;
+    padding-bottom: 15px;
+}
+
+.footer-lingue > span {
+    padding: 10px;
+    color: #dadee0;
+}
+
+.footer-copyright {
+    padding: 30px 0;
+    color: #dadee0;
+    font-size: 14px;
+    width: 100%;
+}
+
+.colonna-footer-copyright {
+    width: 50%;
+}
+
+.colonna-footer-copyright > span {
+    padding-left: 20px;
+}
+
+.footer-copyright > .colonna-footer-copyright:last-child {
+    text-align: right;
+}
+
+
+
+
