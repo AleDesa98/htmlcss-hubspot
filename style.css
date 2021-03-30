@@ -28,8 +28,15 @@ body {
     clear: both;
 }
 
+.position-fixed {
+    position: relative;
+}
+
 .sfondo-f4f9fd {
     background-color: #f4f9fd;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .btn {
@@ -105,6 +112,7 @@ body {
 .barra-menu {
     height: 60px;
     line-height: 60px;
+    margin-top: 60px;
 }
 
 .barra-menu-left {
